@@ -12,7 +12,7 @@ def move_end_sphere():
     # Create a publisher to publish the target position
     pub = rospy.Publisher('cable_target_position', Point, queue_size=10)
     target_position = Point()
-    offset = 0.4
+    offset = 0.5
 
     # Go to the first target position
 
